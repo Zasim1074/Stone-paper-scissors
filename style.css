@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: #9C528B;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    background-color: #2E294E;
+    color:white;
+    height: 5rem;
+    width: 100%;
+    line-height: 5rem;
+}
+
+
+.result{
+    height: 19vmin;
+    width: 70vmin;
+    gap: 0.5vmin;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+#msg{
+    height: 14vmin;
+    font-size: 5vmin;
+    padding: 1min;
+    border-radius: 1vmin;
+    background-color: lightcoral;
+    margin-bottom: 1vmin; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset, #newgame{
+    font-size: 4vmin;
+    padding: 0.5vmin;
+    border: 1px solid white;
+    border-radius: 1vmin;
+    background-color: #B9929F;
+}
+#reset:hover, #newgame:hover{
+    border: 2px solid pink;
+}
+
+.choices{
+    height: 45vh;
+    width: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vmin;
+    border: none;
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.choice{
+    height: 45vmin;
+    width: 25vmin;
+    border: none;
+}
+
+#img{
+    height: 44vmin;
+    width: 24vmin;
+    border: none;
+    border-radius: 1vmin;
+    object-fit: cover;
+}
+#img:hover{
+    opacity: 0.8;
+    border: 2px solid pink;
+    cursor: pointer;
+}
+
+.scoreboard{
+    height: 12vh;
+    width:61vh;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 1vmin;
+}
+
+.you, .computer{
+    height: 12vmin;
+    width: 30vmin;
+    border: none;
+}
+
+#scores1, #scores2{
+    height:5vmin;
+    font-size: 4vmin;
+    padding: 0.5vmin;
+    color:white;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #610F7F;
+    margin-bottom: 0.5vmin;
+
+}
+
+#player{
+    font-size: 4vmin;
+    padding: 1vmin;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #610F7F;
+}
+
+.hide{
+    display: none;
+}
